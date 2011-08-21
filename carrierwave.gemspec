@@ -38,4 +38,5 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "mini_magick"
   s.add_development_dependency "rmagick"
+  s.add_development_dependency "zencoder"
 end
