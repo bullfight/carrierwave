@@ -18,6 +18,7 @@ require 'sqlite3'
 
 require 'fog'
 require 'storage/fog_helper'
+require 'processing/zencoder_fog_helper'
 
 unless ENV['REMOTE'] == 'true'
   Fog.mock!
