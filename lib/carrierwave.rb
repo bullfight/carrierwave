@@ -38,6 +38,7 @@ module CarrierWave
   autoload :ImageScience, 'carrierwave/processing/image_science'
   autoload :MiniMagick, 'carrierwave/processing/mini_magick'
   autoload :MimeTypes, 'carrierwave/processing/mime_types'
+  autoload :Zencoder, 'carrierwave/processing/zencoder'
   autoload :VERSION, 'carrierwave/version'
 
   module Storage
