@@ -39,7 +39,7 @@ module CarrierWave
   autoload :MiniMagick, 'carrierwave/processing/mini_magick'
   autoload :MimeTypes, 'carrierwave/processing/mime_types'
   autoload :Zencoder, 'carrierwave/processing/zencoder'
-  autoload :delayed_job, 'carrierwave/processing/delayed_job'
+  autoload :Delayed_job, 'carrierwave/processing/delayed_job'
   autoload :VERSION, 'carrierwave/version'
 
   module Storage
